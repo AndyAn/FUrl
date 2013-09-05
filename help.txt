@@ -1,0 +1,9 @@
+﻿Help on Usage:
+    furl [options] [http://]hostname[:port]/path
+    Operation:
+        -ip   ip address  Remote server IP.
+        -url  url         Request URL.
+        -file url file    URL list, instead of URL, for requests.
+        -h    help        Display usage information (this message).
+    Sample:
+        furl -ip 127.0.0.1 http://127.0.0.1/index.php
